@@ -1,0 +1,12 @@
+<p>
+	<strong>Title:</strong>
+	<%= @artwork.title %>
+</p>
+
+<p>
+	<strong>Description:</strong>
+	<%= @artwork.description %>
+</p>
+
+<%= link_to 'Edit', edit_artwork_path(@artwork) %> |
+<%= link_to 'Back', artworks_path %>
